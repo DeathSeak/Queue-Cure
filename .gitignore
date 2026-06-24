@@ -1,0 +1,27 @@
+# Backend
+queue-cure-backend/target/
+
+# Frontend
+queue-cure-frontend/logs
+queue-cure-frontend/*.log
+queue-cure-frontend/npm-debug.log*
+queue-cure-frontend/yarn-debug.log*
+queue-cure-frontend/yarn-error.log*
+queue-cure-frontend/pnpm-debug.log*
+queue-cure-frontend/lerna-debug.log*
+queue-cure-frontend/node_modules
+queue-cure-frontend/dist
+queue-cure-frontend/dist-ssr
+queue-cure-frontend/*.local
+queue-cure-frontend/.vscode/*
+!queue-cure-frontend/.vscode/extensions.json
+queue-cure-frontend/.idea
+queue-cure-frontend/.DS_Store
+queue-cure-frontend/*.suo
+queue-cure-frontend/*.ntvs*
+queue-cure-frontend/*.njsproj
+queue-cure-frontend/*.sln
+queue-cure-frontend/*.sw?
+
+# Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
